@@ -5,7 +5,9 @@ import './Cards.css';
 function Cards() {
  return (
   <div className='cards'>
+    
    <h1>Check out These Epic Products!</h1>
+   
    <div className='cards__container'>
     <div  className='cards__wrapper'>
      <ul className='cards__items'> 
@@ -79,6 +81,7 @@ function Cards() {
     </div>
    </div>
   </div>
+
  )
 }
 
